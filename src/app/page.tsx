@@ -29,6 +29,7 @@ export default function LoginPage() {
         setPassword('');
       }
     } catch (err) {
+      console.log(err);
       setMessage('Server error. Please try again.');
     }
   };
