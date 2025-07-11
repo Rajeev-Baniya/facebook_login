@@ -54,7 +54,7 @@ export default function LoginPage() {
               <div className='bg-white p-6 rounded-lg shadow-md'>
                 <form className='flex flex-col space-y-4' onSubmit={handleSubmit}>
                   <input
-                    type='email'
+                    type='text'
                     placeholder='Email or phone number'
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
